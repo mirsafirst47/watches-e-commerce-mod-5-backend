@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2020_10_18_194041) do
   enable_extension "plpgsql"
 
   create_table "carts", force: :cascade do |t|
-    t.boolean "history"
+    t.boolean "history", default: false
     t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -34,8 +34,6 @@ ActiveRecord::Schema.define(version: 2020_10_18_194041) do
 
   create_table "users", force: :cascade do |t|
     t.string "username"
-    t.integer "age"
-    t.string "email_address"
     t.string "password_digest"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
