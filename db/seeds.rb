@@ -108,8 +108,8 @@ arrayOfWatches = [
     {
         name: "Fleurs de Jardin",
         brand: "Jacob & Co", 
-        color: "White Gold",
-        image_url: "https://image.dynamixse.com/fit/525x425/q80.webp.png-lossy-85/https://dynamix-cdn.s3.amazonaws.com/jacobandcocom/jacobandcocom_406490235.png",
+        color: "Rose Gold",
+        image_url: "https://image.dynamixse.com/fit/525x425/q80.webp.png-lossy-85/https://dynamix-cdn.s3.amazonaws.com/jacobandcocom/jacobandcocom_182403077.png",
         price: 450000
     }
     

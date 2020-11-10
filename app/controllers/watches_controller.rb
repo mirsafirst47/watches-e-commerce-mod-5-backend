@@ -5,21 +5,10 @@ class WatchesController < ApplicationController
         render json: watches
     end 
     
-    # def create
-    #     watch = Watch.create(watch_params)
-    #     render json: watch
-    # end
-    
     def show
         watch = Watch.find(params[:id])
         render json: watch
     end 
-    
-    # def update 
-    #     watch = Watch.find(params[:id])
-    #     watch.update(watch_params)
-    #     render json: watch
-    # end 
     
     # def destroy 
     #     watch = Watch.find(params[:id])

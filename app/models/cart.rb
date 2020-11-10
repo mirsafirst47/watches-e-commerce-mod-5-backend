@@ -9,4 +9,8 @@ class Cart < ApplicationRecord
     self.watches.sum(:price)
   end
 
+  def timestamp
+    self.created_at.strftime("%m/%d/%Y")
+  end
+
 end

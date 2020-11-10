@@ -1,6 +1,6 @@
 class CartSerializer < ActiveModel::Serializer
 
-    attributes :id, :history, :total
+    attributes :id, :history, :total, :timestamp
 
     has_many :transactions
     
