@@ -17,7 +17,6 @@ class UsersController < ApplicationController
         end
     end
 
-
     def create
         @user = User.create(user_params)
         if @user.valid?
@@ -31,7 +30,6 @@ class UsersController < ApplicationController
             render json: {error: "INVALID USER"}, status: 422
         end
     end
-
 
     def keep_logged_in
         # @user exists here because of the before_action
@@ -63,34 +61,3 @@ class UsersController < ApplicationController
     end
     
 end
-
-# def index
-    #     @users = User.all
-    #     render json: @users
-    # end
-
-    # def create
-    #     @user = User.create(user_params)
-    #     if @user
-    #         render json: @user
-    #     else
-    #         render json: {:error => @user.errors.full_messages}
-    #     end
-    # end
-
-    # def update
-    #     @user = User.find(params[:id])
-    #     @user.update
-    #     render json: @user
-    # end
-
-    # def destroy
-    #     @user = User.find(params[:id])
-    #     @user.destroy
-    # end
-
-    # private
-
-    # def user_params
-    #     params.permit(:username, :password)
-    # end

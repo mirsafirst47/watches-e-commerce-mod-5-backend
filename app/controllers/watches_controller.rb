@@ -8,12 +8,7 @@ class WatchesController < ApplicationController
     def show
         watch = Watch.find(params[:id])
         render json: watch
-    end 
-    
-    # def destroy 
-    #     watch = Watch.find(params[:id])
-    #     watch.destroy
-    # end
+    end
 
     private
 

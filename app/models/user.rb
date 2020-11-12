@@ -10,7 +10,6 @@ class User < ApplicationRecord
         CartSerializer.new(current_cart)
     end
 
-
     def past_orders
         all_past_orders = self.carts.where(history: true)
         all_past_orders.map do |order|

@@ -1,4 +1,3 @@
 class TransactionSerializer < ActiveModel::Serializer
-    attributes :id, :watch_name, :watch_price #, :watch_image
-    # belongs_to :watch
+    attributes :id, :watch_name, :watch_price
 end

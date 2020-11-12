@@ -1,4 +1,3 @@
-
 arrayOfWatches = [
     {
         name: "Astronomia Tourbillon",
@@ -36,7 +35,7 @@ arrayOfWatches = [
         price: 1015000
     },
     {
-        name: "	Astronomia Tourbillon Black Ceramic",
+        name: "Astronomia Tourbillon Black Ceramic",
         brand: "Jacob & Co",
         color: "Black and Red",
         image_url: "https://image.dynamixse.com/fit/525x425/q80.webp.png-lossy-85/https://dynamix-cdn.s3.amazonaws.com/jacobandcocom/jacobandcocom_120738478.png",

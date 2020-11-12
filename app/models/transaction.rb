@@ -11,8 +11,4 @@ class Transaction < ApplicationRecord
     self.watch.price
   end
 
-  # def watch_image
-  #   self.watch.image_url
-  # end
-
 end

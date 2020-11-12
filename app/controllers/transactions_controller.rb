@@ -5,9 +5,18 @@ class TransactionsController < ApplicationController
         render json: transaction
     end
 
+    def destroy
+        # byebug
+        transaction = Transaction.find(params[:id])
+        transaction.destroy
+
+        render json: transaction
+    end
+
     private
 
     def transaction_params
-        params.permit(:cart_id, :watch_id)
+        params.permit(:watch_id, :cart_id)
     end 
+
 end

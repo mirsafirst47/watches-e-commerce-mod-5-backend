@@ -8,6 +8,7 @@ gem 'jwt'
 gem 'active_model_serializers'
 gem 'stripe'
 gem 'dotenv'
+gem 'money-rails', '~>1.12'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
